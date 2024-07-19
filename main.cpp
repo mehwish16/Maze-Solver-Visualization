@@ -224,7 +224,7 @@ void astar(std::vector<std::vector<Node>>& grid, Node* start, Node* end, sf::Ren
 }
 
 void readInputFromFile(std::vector<std::vector<Node>>& grid) {
-    std::ifstream inputFile("input3.txt");
+    std::ifstream inputFile("input.txt");
     if (!inputFile) {
         std::cerr << "Failed to open input.txt\n";
         exit(1);
